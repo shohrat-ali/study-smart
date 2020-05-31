@@ -1,0 +1,509 @@
+*
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+a
+{
+	color: #333;
+	text-decoration: underline;
+}
+body
+{
+	background-color:#fff;
+	margin:0 auto;
+}
+.menubar
+{
+	width:100%;
+	height:50px;
+	background-color:#603030;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+}
+.logo
+{
+	width:50px;
+	height:50px;
+	float:left;
+	margin:0px 0 0 10px;
+}
+.menu
+{
+	height:35px;
+	
+	float:left;
+	padding:15px 10px 0 10px;
+	margin:0px 0 0 10px;
+	font-size:14px;
+}
+.menu:hover
+{
+	background-color: #FFF;
+}
+.signin
+{
+	height:25px;
+	float:right;
+	margin:10px 30px 0 0px;
+	background-color:#402020;
+	padding:5px 10px 0 10px;
+	border-radius:5px;
+}
+.signin:hover
+{
+	background-color: #FFF;
+}
+.headercontent
+{
+	width:100%;
+	height:130px;
+	background-color:#402020;
+	clear:both;
+	color:#FFF;
+	text-align:center;
+	font-size:40px;
+	padding-top:20px;
+}
+.slider
+{
+	width:100%;
+	height:70%;
+	background-color:#CCC;
+}
+.marquee
+{
+	width:100%;
+	height:80px;
+	color:#F00;
+	clear:both;
+	background-color:#999;
+	font-size:16px;
+	text-align:center;
+	padding-top:20px;
+}
+.marquee p
+{
+	padding:0 50px;
+}
+
+
+.row_block
+{
+	 width:1000px;
+	 border-bottom:1px dotted #666666;
+	 margin: 10px auto;
+	 background-color:#fff;
+	 padding-top:2px;
+	 clear:both;
+}
+.row_block p
+{
+	text-align:center;
+	font-size:14px;
+}
+
+
+.panel_block
+{
+	width:1000px;
+	height:180px;
+	background-color:#fff;
+	margin:0 auto;
+}
+
+.panel
+{
+	width:400px;
+	height:115px;
+	background-color:#603030;
+	color:#FFF;
+	text-align:center;
+	font-size:28px;
+	float:left;
+	margin:25px 0 0 65px;
+}
+
+.panelinnerrow
+{
+width:400px;
+height:55px;
+margin-top:1px;
+}
+.panelinnerrow a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.pannelimage
+{
+	width:40px;
+	height:30px;
+	color:#FFF;
+	font-size:28px;
+	text-align:center;
+	padding-top:10px;
+	margin:15px 0 0 180px;
+
+}
+.messageblock
+{
+	width:750px;
+	margin:10px 0px;
+	background-color:#FFF;
+	float:left;
+}
+.sayingblock
+{
+	width:250px;
+	height:250px;
+	background-color:#fff;
+	float:left;
+	margin-top:5px;
+}
+
+
+.deanimg
+{
+	width:200px;
+	height:200px;
+	background-color:#FFF;
+	border:10px solid #402020;
+	border-radius:50% 50%;
+}
+.deanimginner
+{
+	width:180px;
+	height:180px;
+	background-color:#FFF;
+	background-image:url(../images/download.jpg);
+	margin:12px 0 0 10px;
+	background-color:#CCC;
+	border-radius:50%;
+	background-repeat:inherit;
+	
+	background-size:100%;
+}
+.headcenter
+{
+	width:750px;
+	height:40px;
+	background-color:#fff;
+	font-size:20px;
+	font-family:"Lucida Console", Monaco, monospace;
+	color:#000;
+	text-align:center;
+	padding-top:10px;
+}
+
+	
+	.thoughtmsg
+	{
+		width:500px;
+		background-color:#CCF;
+		border-radius:10px;
+		padding:10px;		
+		margin:10px auto;
+		font-size:14px;
+		font-family:"Lucida Console", Monaco, monospace;
+	}
+
+
+.thoughtby
+{
+padding:5px 20px;
+text-align:right;
+}
+.radiusblock
+{
+	width:30px;
+	height:25px;
+	background-color:#402020;
+	color:#FFF;
+	font-size:18px;
+	text-align:center;
+	padding-top:5px;
+	margin:5px 0 0 15px;
+	float:left;
+	border-radius:50% ;
+	
+}
+.radiusblock a
+{
+	color:#FFF;
+}
+.radiusblock a:hover
+{
+	color:#F60;
+	transition:2s;
+	text-shadow:#F00 2px 2px;
+}
+
+.contactno
+{
+	width:200px;
+	height:30px;
+	float:left;
+	margin:10px 0 0 70px;
+	font-size:18px;
+	color:#FFF;
+}
+.footer
+{
+	width: 100%;
+	clear: both;
+	height: 300px;
+	background-color: #603030;
+	border-top: 5px solid #402020;
+}
+.footerblock
+{
+	height:250px;
+	width:1000px;
+	margin:0 auto;
+	
+
+}
+.fcol
+{
+	width:150px;
+	height:230px;
+	float:left;
+	margin:10px 0 0 30px;
+}
+.fcolhead
+{
+	width:150px;
+	height:30px;
+	background-color:#402020;
+	font-size:18px;
+	color:#FFF;
+	text-align:center;
+	padding-top:5px;
+}
+.developerhead
+{	width:510px;
+	height:30px;
+	background-color:#402020;
+	font-size:18px;
+	color:#FFF;
+	text-align:center;
+	padding-top:5px;
+}
+.fmenu
+{
+	width:150px;
+	height:30px;
+	text-align:center;
+	color:#FFF;
+	margin:5px 0;
+}
+.fmenu a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+.w400
+{
+	width:400px;
+	background-color:#999;
+	
+}
+.companyblock
+{
+	width:500px;
+	height:190px;
+	border:5px solid #402020;
+	background-color:#603030;
+}
+.developer
+{
+	width:500px;
+	height:50px;
+	font-size:22px;
+	color:#FFF;
+	text-align:center;
+	padding-top:5px;
+
+}
+.sociallink
+{
+	width:500px;
+	height:50px;
+}
+
+.slinklogo
+{
+	width:50px;
+	height:30px;
+}
+.footerlastrow
+{
+	width:100%;
+	height:50px;
+	background-color:#402020;
+	
+
+}
+.flastrowleft
+{
+	width:500px;
+	height:30px;
+	color:#FFF;
+	font-size:14px;
+	float:left;
+	margin-left:20px;
+	padding-top:20px
+}
+.flastrowright
+{
+	width:500px;
+	height:30px;
+	color:#FFF;
+	padding-top:20px;
+	font-size:14px;
+	float:right;
+	margin-right:20px;
+	text-align:right;
+
+}
+
+.flastrowright a
+{
+	color:#Fff;
+	text-decoration:none;
+}
+    
+.pblock
+{
+	width:1200px;
+	color:#000;
+	margin:10px auto;
+	font-size:16px;
+	clear:both;
+	padding-bottom:20px;
+	text-align:justify;
+	
+}
+.phead
+{
+	width:1200px;
+	height:50px;
+	border-bottom:1px dotted #999;
+	text-align:center;
+	font-size:36px;
+	
+}
+.cen
+{
+	text-align:center;
+}
+.rig
+{
+	text-align:right;
+}
+.left
+{
+	text-align:left;
+}
+.contactus_block
+{
+	width:1200px;
+	height:500px;
+	background-color:#eee;
+	margin:0 auto;
+}
+
+.enquiryblock
+{
+	width:500px;
+	height:400px;
+	float:left;
+	margin:20px 0 0 50px;
+	font-size:16px;
+	
+
+}
+.contactdetailblock
+{	width:500px;
+	height:400px;
+	float:left;
+	margin:20px 0 0 50px;
+	padding-left:50px;
+}
+.input
+{
+	width:300px;
+	height:40px;
+	font-size:16px;
+	color:#666;
+	margin-bottom:10px;
+}
+.textarea
+{	width:300px;
+	height:100px;
+	font-size:16px;
+	color:#666;
+}
+.submit
+{
+	width:100px;
+	height:30px;
+	background-color:#666;
+	color:#FFF;
+	margin:10px 0 0 50px;
+	border:none;
+}
+	
+.pblockleft
+{
+	width:250px;
+	height:250px;
+	background-color:#9CC;
+	float:left;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+.pblock a
+{
+	color:#fff;
+}
+	
+
+.pblockright
+{
+ width:950px;
+ float:left;
+}
+bigheading
+{
+	font-size:50px;
+	text-align:right;
+}
+.logincontent
+{
+	width:100%;
+	background-color:#fff;
+	margin:0 auto;
+	height:600px;
+}
+.loginbox{
+    width: 320px;
+    height:600px;
+    background: ;
+    color: #fff;
+    top: 60%;
+    left: 53%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+   
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    position: absolute;
+    top: 
+}
